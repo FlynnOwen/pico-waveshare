@@ -15,3 +15,7 @@ To upload code to the RPI Pico 2 W, I used the VSCode extension ([setup instruct
 To upload code, import the project under the `src/` directory, using the RPI VSCode extention. Select `upload_project` to upload all code in the `src` folder to the Pico.
 
 **It should be noted that when uploading Python code to the Pico, the script `main.py` is what will run by default when power is supplied to the device.**
+
+## Config
+
+Secrets required to run the project are visible under `src/config_template.py`. These include WiFi credentials, as well as authentication secrets for the [Real Time Trains API](https://www.realtimetrains.co.uk/about/developer/pull/docs/locationlist/).
